@@ -1,0 +1,5 @@
+Nothing to build in platform 'system_wrapper'
+
+14:49:12 **** Incremental Build of configuration Debug for project thr_hls_com_1018 ****
+make all 
+make: Nothing to be done for 'all'.

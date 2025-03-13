@@ -1,0 +1,165 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Dec 18 11:40:56 2024
+| Host         : L running 64-bit major release  (build 9200)
+| Command      : report_drc -file system_wrapper_drc_routed.rpt -pb system_wrapper_drc_routed.pb -rpx system_wrapper_drc_routed.rpx
+| Design       : system_wrapper
+| Device       : xczu2cg-sfvc784-2-i
+| Speed File   : -2
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 21
++-----------+----------+--------------------------------------+------------+
+| Rule      | Severity | Description                          | Violations |
++-----------+----------+--------------------------------------+------------+
+| DPIP-2    | Warning  | Input pipelining                     | 5          |
+| DPOP-3    | Warning  | PREG Output pipelining               | 1          |
+| DPOP-4    | Warning  | MREG Output pipelining               | 5          |
+| PLCK-58   | Warning  | Clock Placer Checks                  | 3          |
+| RTSTAT-10 | Warning  | No routable loads                    | 1          |
+| REQP-1934 | Advisory | RAMB18E2_nochange_collision_advisory | 3          |
+| REQP-1935 | Advisory | RAMB36E2_nochange_collision_advisory | 3          |
++-----------+----------+--------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-2#1 Warning
+Input pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/bound_reg_782_reg input system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/bound_reg_782_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#2 Warning
+Input pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p input system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#3 Warning
+Input pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p input system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#4 Warning
+Input pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p__0 input system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#5 Warning
+Input pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p__0 input system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-3#1 Warning
+PREG Output pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p__0 output system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-4#1 Warning
+MREG Output pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/Axi2AxiStream_U0/mul_mul_16ns_16ns_32_3_1_U15/canny_accel_mul_mul_16ns_16ns_32_3_1_DSP48_0_U/p_reg_reg multiplier stage system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/Axi2AxiStream_U0/mul_mul_16ns_16ns_32_3_1_U15/canny_accel_mul_mul_16ns_16ns_32_3_1_DSP48_0_U/p_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#2 Warning
+MREG Output pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/bound_reg_782_reg multiplier stage system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/bound_reg_782_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#3 Warning
+MREG Output pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p multiplier stage system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#4 Warning
+MREG Output pipelining  
+DSP system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p__0 multiplier stage system_i/canny_accel_0/inst/Array2xfMat_64_0_800_1280_8_2_U0/grp_Axi2Mat_fu_82/AxiStream2Mat_U0/AxiStream2MatStream_2_U0/mul_32s_29s_32_1_1_U33/canny_accel_mul_32s_29s_32_1_1_Multiplier_0_U/p__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#5 Warning
+MREG Output pipelining  
+DSP system_i/canny_accel_0/inst/xfMat2Array_64_11_800_1280_32_2_1_U0/grp_Mat2Axi_fu_62/addrbound_U0/mul_mul_16ns_11ns_27_3_1_U236/canny_accel_mul_mul_16ns_11ns_27_3_1_DSP48_2_U/p_reg_reg multiplier stage system_i/canny_accel_0/inst/xfMat2Array_64_11_800_1280_32_2_1_U0/grp_Mat2Axi_fu_62/addrbound_U0/mul_mul_16ns_11ns_27_3_1_U236/canny_accel_mul_mul_16ns_11ns_27_3_1_DSP48_2_U/p_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+PLCK-58#1 Warning
+Clock Placer Checks  
+Sub-optimal placement for a global clock-capable IO pin and BUFG pair.
+Resolution: A dedicated routing path between the two can be used if: (a) The global clock-capable IO (GCIO) is placed on a GCIO capable site (b) The BUFG is placed in the same bank of the device as the GCIO pin. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+ This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	cam_pclk_0_IBUF_inst/IBUFCTRL_INST (in cam_pclk_0_IBUF_inst macro) (IBUFCTRL.O) is locked to C13
+	cam_pclk_0_IBUF_BUFG_inst (BUFGCE.I) is provisionally placed by clockplacer on BUFGCE_X0Y25
+
+Related violations: <none>
+
+PLCK-58#2 Warning
+Clock Placer Checks  
+Sub-optimal placement for a global clock-capable IO pin and BUFG pair.
+Resolution: A dedicated routing path between the two can be used if: (a) The global clock-capable IO (GCIO) is placed on a GCIO capable site (b) The BUFG is placed in the same bank of the device as the GCIO pin. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+ This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	cam_pclk_1_IBUF_inst/IBUFCTRL_INST (in cam_pclk_1_IBUF_inst macro) (IBUFCTRL.O) is locked to D11
+	cam_pclk_1_IBUF_BUFG_inst (BUFGCE.I) is provisionally placed by clockplacer on BUFGCE_X0Y2
+
+Related violations: <none>
+
+PLCK-58#3 Warning
+Clock Placer Checks  
+Sub-optimal placement for a global clock-capable IO pin and BUFG pair.
+Resolution: A dedicated routing path between the two can be used if: (a) The global clock-capable IO (GCIO) is placed on a GCIO capable site (b) The BUFG is placed in the same bank of the device as the GCIO pin. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+ This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	cam_pclk_2_IBUF_inst/IBUFCTRL_INST (in cam_pclk_2_IBUF_inst macro) (IBUFCTRL.O) is locked to Y12
+	cam_pclk_2_IBUF_BUFG_inst (BUFGCE.I) is provisionally placed by clockplacer on BUFGCE_X0Y54
+
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+1 net(s) have no routable loads. The problem bus(es) and/or net(s) are system_i/axi_smc/inst/s05_entry_pipeline/s05_si_converter/inst/areset_i_1_n_4.
+Related violations: <none>
+
+REQP-1934#1 Advisory
+RAMB18E2_nochange_collision_advisory  
+Synchronous clocking is detected for BRAM (system_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-1934#2 Advisory
+RAMB18E2_nochange_collision_advisory  
+Synchronous clocking is detected for BRAM (system_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-1934#3 Advisory
+RAMB18E2_nochange_collision_advisory  
+Synchronous clocking is detected for BRAM (system_i/axi_vdma_2/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-1935#1 Advisory
+RAMB36E2_nochange_collision_advisory  
+Synchronous clocking is detected for BRAM (system_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-1935#2 Advisory
+RAMB36E2_nochange_collision_advisory  
+Synchronous clocking is detected for BRAM (system_i/axi_vdma_1/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-1935#3 Advisory
+RAMB36E2_nochange_collision_advisory  
+Synchronous clocking is detected for BRAM (system_i/axi_vdma_2/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+

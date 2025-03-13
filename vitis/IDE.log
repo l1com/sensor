@@ -1,0 +1,1530 @@
+10:43:59 INFO  : Registering command handlers for Vitis TCF services
+10:43:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+10:44:01 INFO  : Platform repository initialization has completed.
+10:44:01 INFO  : XSCT server has started successfully.
+10:44:02 INFO  : plnx-install-location is set to ''
+10:44:02 INFO  : Successfully done setting XSCT server connection channel  
+10:44:02 INFO  : Successfully done query RDI_DATADIR 
+10:44:02 INFO  : Successfully done setting workspace for the tool. 
+10:46:42 INFO  : Result from executing command 'getProjects': system_wrapper
+10:46:42 INFO  : Result from executing command 'getPlatforms': 
+10:46:42 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:46:43 INFO  : Platform 'system_wrapper' is added to custom repositories.
+10:46:48 INFO  : Platform 'system_wrapper' is added to custom repositories.
+10:50:15 INFO  : Result from executing command 'getProjects': system_wrapper
+10:50:15 INFO  : Result from executing command 'getPlatforms': system_wrapper|D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+10:50:15 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+10:50:15 INFO  : Updating application flags with new BSP settings...
+10:50:15 INFO  : Successfully updated application flags for project thr_hls_com_1018.
+08:46:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+08:46:43 INFO  : XSCT server has started successfully.
+08:46:43 INFO  : plnx-install-location is set to ''
+08:46:43 INFO  : Successfully done setting XSCT server connection channel  
+08:46:43 INFO  : Successfully done setting workspace for the tool. 
+08:46:45 INFO  : Registering command handlers for Vitis TCF services
+08:46:45 INFO  : Platform repository initialization has completed.
+08:46:45 INFO  : Successfully done query RDI_DATADIR 
+08:51:40 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+14:42:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+14:42:44 INFO  : XSCT server has started successfully.
+14:42:44 INFO  : plnx-install-location is set to ''
+14:42:44 INFO  : Successfully done setting XSCT server connection channel  
+14:42:44 INFO  : Successfully done setting workspace for the tool. 
+14:42:46 INFO  : Registering command handlers for Vitis TCF services
+14:42:46 INFO  : Platform repository initialization has completed.
+14:42:46 INFO  : Successfully done query RDI_DATADIR 
+14:43:32 INFO  : Hardware specification for platform project 'system_wrapper' is updated.
+14:50:08 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+14:50:08 ERROR : Failed to openhw "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+14:50:08 ERROR : Failed to update application flags from BSP for 'thr_hls_com_1018'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+15:02:16 INFO  : Hardware specification for platform project 'system_wrapper' is updated.
+15:09:00 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+15:09:00 ERROR : Failed to openhw "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+15:09:00 ERROR : Failed to update application flags from BSP for 'thr_hls_com_1018'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+15:41:33 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+15:41:33 ERROR : Failed to openhw "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+15:41:33 ERROR : Failed to update application flags from BSP for 'thr_hls_com_1018'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+15:58:42 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+15:58:42 ERROR : Failed to openhw "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+15:58:42 ERROR : Failed to update application flags from BSP for 'thr_hls_com_1018'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+16:15:44 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+16:15:44 ERROR : Failed to openhw "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+16:15:44 ERROR : Failed to update application flags from BSP for 'thr_hls_com_1018'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+16:29:42 INFO  : Result from executing command 'getProjects': system_wrapper
+16:29:42 INFO  : Result from executing command 'getPlatforms': system_wrapper|D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+16:31:36 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+16:31:39 INFO  : Updating application flags with new BSP settings...
+16:31:40 INFO  : Successfully updated application flags for project thr_hls_com_1018.
+16:35:57 INFO  : The hardware specfication used by project 'thr_hls_com_1018' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+16:35:57 INFO  : The file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018\_ide\bitstream\system_wrapper.bit' stored in project is removed.
+16:35:57 INFO  : The updated bitstream files are copied from platform to folder 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018\_ide\bitstream' in project 'thr_hls_com_1018'.
+16:35:57 INFO  : The file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018\_ide\psinit\psu_init.tcl' stored in project is removed.
+16:35:57 INFO  : The updated ps init files are copied from platform to folder 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018\_ide\psinit' in project 'thr_hls_com_1018'.
+16:36:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:36:02 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:36:02 INFO  : 'jtag frequency' command is executed.
+16:36:02 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:36:02 INFO  : Context for 'APU' is selected.
+16:36:03 INFO  : System reset is completed.
+16:36:06 INFO  : 'after 3000' command is executed.
+16:36:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:36:11 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:36:11 INFO  : Context for 'APU' is selected.
+16:36:12 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:36:12 INFO  : 'configparams force-mem-access 1' command is executed.
+16:36:12 INFO  : Context for 'APU' is selected.
+16:36:12 INFO  : Boot mode is read from the target.
+16:36:12 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:36:12 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:36:12 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:36:13 INFO  : 'set bp_36_12_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:36:13 INFO  : 'con -block -timeout 60' command is executed.
+16:36:13 INFO  : 'bpremove $bp_36_12_fsbl_bp' command is executed.
+16:36:13 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:36:13 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:36:15 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:36:15 INFO  : 'configparams force-mem-access 0' command is executed.
+16:36:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_36_12_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_36_12_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:36:15 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:36:15 INFO  : 'con' command is executed.
+16:36:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:36:15 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:49:02 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+16:49:21 INFO  : Disconnected from the channel tcfchan#19.
+16:49:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:49:23 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:49:23 INFO  : 'jtag frequency' command is executed.
+16:49:23 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:49:23 INFO  : Context for 'APU' is selected.
+16:49:24 INFO  : System reset is completed.
+16:49:27 INFO  : 'after 3000' command is executed.
+16:49:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:49:32 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:49:32 INFO  : Context for 'APU' is selected.
+16:49:32 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:49:32 INFO  : 'configparams force-mem-access 1' command is executed.
+16:49:32 INFO  : Context for 'APU' is selected.
+16:49:32 INFO  : Boot mode is read from the target.
+16:49:32 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:49:32 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:49:33 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:49:33 INFO  : 'set bp_49_33_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:49:35 INFO  : 'con -block -timeout 60' command is executed.
+16:49:35 INFO  : 'bpremove $bp_49_33_fsbl_bp' command is executed.
+16:49:35 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:49:35 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:49:37 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:49:37 INFO  : 'configparams force-mem-access 0' command is executed.
+16:49:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_49_33_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_49_33_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:49:37 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:49:37 INFO  : 'con' command is executed.
+16:49:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:49:37 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:52:07 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+16:55:21 INFO  : Disconnected from the channel tcfchan#20.
+16:55:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:55:23 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:55:23 INFO  : 'jtag frequency' command is executed.
+16:55:23 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:55:23 INFO  : Context for 'APU' is selected.
+16:55:24 INFO  : System reset is completed.
+16:55:27 INFO  : 'after 3000' command is executed.
+16:55:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:55:32 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:55:33 INFO  : Context for 'APU' is selected.
+16:55:33 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:55:33 INFO  : 'configparams force-mem-access 1' command is executed.
+16:55:33 INFO  : Context for 'APU' is selected.
+16:55:33 INFO  : Boot mode is read from the target.
+16:55:33 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:55:33 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:55:34 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:55:34 INFO  : 'set bp_55_34_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:55:35 INFO  : 'con -block -timeout 60' command is executed.
+16:55:35 INFO  : 'bpremove $bp_55_34_fsbl_bp' command is executed.
+16:55:35 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:55:35 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:55:37 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:55:37 INFO  : 'configparams force-mem-access 0' command is executed.
+16:55:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_55_34_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_55_34_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:55:37 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:55:37 INFO  : 'con' command is executed.
+16:55:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:55:37 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+17:08:08 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+17:08:24 INFO  : Disconnected from the channel tcfchan#21.
+17:08:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:08:26 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+17:08:26 INFO  : 'jtag frequency' command is executed.
+17:08:26 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+17:08:26 INFO  : Context for 'APU' is selected.
+17:08:27 INFO  : System reset is completed.
+17:08:30 INFO  : 'after 3000' command is executed.
+17:08:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+17:08:35 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+17:08:35 INFO  : Context for 'APU' is selected.
+17:08:35 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+17:08:35 INFO  : 'configparams force-mem-access 1' command is executed.
+17:08:35 INFO  : Context for 'APU' is selected.
+17:08:35 INFO  : Boot mode is read from the target.
+17:08:35 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:08:35 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+17:08:36 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+17:08:36 INFO  : 'set bp_8_36_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+17:08:36 INFO  : 'con -block -timeout 60' command is executed.
+17:08:36 INFO  : 'bpremove $bp_8_36_fsbl_bp' command is executed.
+17:08:36 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:08:36 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+17:08:39 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+17:08:39 INFO  : 'configparams force-mem-access 0' command is executed.
+17:08:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_8_36_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_8_36_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:08:39 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:08:39 INFO  : 'con' command is executed.
+17:08:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+17:08:39 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+17:41:52 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+17:42:05 INFO  : Disconnected from the channel tcfchan#22.
+17:42:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:42:06 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+17:42:06 INFO  : 'jtag frequency' command is executed.
+17:42:06 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+17:42:06 INFO  : Context for 'APU' is selected.
+17:42:07 INFO  : System reset is completed.
+17:42:10 INFO  : 'after 3000' command is executed.
+17:42:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+17:42:15 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+17:42:15 INFO  : Context for 'APU' is selected.
+17:42:15 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+17:42:15 INFO  : 'configparams force-mem-access 1' command is executed.
+17:42:15 INFO  : Context for 'APU' is selected.
+17:42:15 INFO  : Boot mode is read from the target.
+17:42:15 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:42:15 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+17:42:16 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+17:42:16 INFO  : 'set bp_42_16_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+17:42:16 INFO  : 'con -block -timeout 60' command is executed.
+17:42:16 INFO  : 'bpremove $bp_42_16_fsbl_bp' command is executed.
+17:42:16 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:42:16 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+17:42:19 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+17:42:19 INFO  : 'configparams force-mem-access 0' command is executed.
+17:42:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_42_16_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_42_16_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:42:19 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:42:19 INFO  : 'con' command is executed.
+17:42:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+17:42:19 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+17:42:59 INFO  : Disconnected from the channel tcfchan#23.
+17:43:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:43:00 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+17:43:00 INFO  : 'jtag frequency' command is executed.
+17:43:00 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+17:43:00 INFO  : Context for 'APU' is selected.
+17:43:01 INFO  : System reset is completed.
+17:43:04 INFO  : 'after 3000' command is executed.
+17:43:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+17:43:09 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+17:43:09 INFO  : Context for 'APU' is selected.
+17:43:09 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+17:43:09 INFO  : 'configparams force-mem-access 1' command is executed.
+17:43:09 INFO  : Context for 'APU' is selected.
+17:43:09 INFO  : Boot mode is read from the target.
+17:43:09 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:43:09 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+17:43:10 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+17:43:10 INFO  : 'set bp_43_10_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+17:43:10 INFO  : 'con -block -timeout 60' command is executed.
+17:43:10 INFO  : 'bpremove $bp_43_10_fsbl_bp' command is executed.
+17:43:10 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:43:10 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+17:43:13 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+17:43:13 INFO  : 'configparams force-mem-access 0' command is executed.
+17:43:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_43_10_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_43_10_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:43:13 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:43:13 INFO  : 'con' command is executed.
+17:43:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+17:43:13 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+18:49:29 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+18:49:44 INFO  : Disconnected from the channel tcfchan#24.
+18:49:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:49:45 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+18:49:45 INFO  : 'jtag frequency' command is executed.
+18:49:45 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+18:49:45 INFO  : Context for 'APU' is selected.
+18:49:46 INFO  : System reset is completed.
+18:49:49 INFO  : 'after 3000' command is executed.
+18:49:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+18:49:54 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+18:49:54 INFO  : Context for 'APU' is selected.
+18:49:54 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+18:49:54 INFO  : 'configparams force-mem-access 1' command is executed.
+18:49:54 INFO  : Context for 'APU' is selected.
+18:49:54 INFO  : Boot mode is read from the target.
+18:49:54 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+18:49:54 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+18:49:55 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+18:49:55 INFO  : 'set bp_49_55_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+18:49:56 INFO  : 'con -block -timeout 60' command is executed.
+18:49:56 INFO  : 'bpremove $bp_49_55_fsbl_bp' command is executed.
+18:49:56 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+18:49:56 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+18:49:58 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+18:49:58 INFO  : 'configparams force-mem-access 0' command is executed.
+18:49:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_49_55_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_49_55_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:49:58 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+18:49:58 INFO  : 'con' command is executed.
+18:49:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+18:49:58 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+21:35:35 INFO  : Disconnected from the channel tcfchan#25.
+15:51:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+15:51:24 INFO  : XSCT server has started successfully.
+15:51:24 INFO  : plnx-install-location is set to ''
+15:51:24 INFO  : Successfully done setting XSCT server connection channel  
+15:51:24 INFO  : Successfully done setting workspace for the tool. 
+15:51:41 INFO  : Platform repository initialization has completed.
+15:51:41 INFO  : Registering command handlers for Vitis TCF services
+15:51:41 INFO  : Successfully done query RDI_DATADIR 
+15:54:46 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+15:58:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:58:44 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+15:58:44 INFO  : 'jtag frequency' command is executed.
+15:58:44 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+15:58:44 INFO  : Context for 'APU' is selected.
+15:58:45 INFO  : System reset is completed.
+15:58:48 INFO  : 'after 3000' command is executed.
+15:58:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+15:58:53 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+15:58:53 INFO  : Context for 'APU' is selected.
+15:58:54 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+15:58:54 INFO  : 'configparams force-mem-access 1' command is executed.
+15:58:54 INFO  : Context for 'APU' is selected.
+15:58:54 INFO  : Boot mode is read from the target.
+15:58:54 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:58:54 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:58:55 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:58:55 INFO  : 'set bp_58_55_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+15:58:55 INFO  : 'con -block -timeout 60' command is executed.
+15:58:55 INFO  : 'bpremove $bp_58_55_fsbl_bp' command is executed.
+15:58:55 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:58:55 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:58:57 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:58:57 INFO  : 'configparams force-mem-access 0' command is executed.
+15:58:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_58_55_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_58_55_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:58:57 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:58:57 INFO  : 'con' command is executed.
+15:58:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+15:58:57 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+20:17:25 INFO  : Disconnected from the channel tcfchan#1.
+15:16:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+15:16:18 INFO  : XSCT server has started successfully.
+15:16:18 INFO  : Successfully done setting XSCT server connection channel  
+15:16:18 INFO  : plnx-install-location is set to ''
+15:16:18 INFO  : Successfully done setting workspace for the tool. 
+15:16:50 INFO  : Platform repository initialization has completed.
+15:16:50 INFO  : Registering command handlers for Vitis TCF services
+15:16:50 INFO  : Successfully done query RDI_DATADIR 
+15:17:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:17:52 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+15:17:52 INFO  : 'jtag frequency' command is executed.
+15:17:52 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+15:17:52 INFO  : Context for 'APU' is selected.
+15:17:53 INFO  : System reset is completed.
+15:17:56 INFO  : 'after 3000' command is executed.
+15:17:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+15:18:02 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+15:18:02 INFO  : Context for 'APU' is selected.
+15:18:03 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+15:18:03 INFO  : 'configparams force-mem-access 1' command is executed.
+15:18:03 INFO  : Context for 'APU' is selected.
+15:18:03 INFO  : Boot mode is read from the target.
+15:18:03 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:18:03 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:18:04 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:18:04 INFO  : 'set bp_18_4_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+15:18:04 INFO  : 'con -block -timeout 60' command is executed.
+15:18:04 INFO  : 'bpremove $bp_18_4_fsbl_bp' command is executed.
+15:18:04 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:18:04 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:18:07 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:18:07 INFO  : 'configparams force-mem-access 0' command is executed.
+15:18:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_18_4_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_18_4_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:18:07 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:18:07 INFO  : 'con' command is executed.
+15:18:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+15:18:07 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+15:20:21 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+15:40:22 INFO  : Disconnected from the channel tcfchan#1.
+15:40:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:40:23 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+15:40:23 INFO  : 'jtag frequency' command is executed.
+15:40:23 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+15:40:23 INFO  : Context for 'APU' is selected.
+15:40:24 INFO  : System reset is completed.
+15:40:27 INFO  : 'after 3000' command is executed.
+15:40:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+15:40:32 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+15:40:32 INFO  : Context for 'APU' is selected.
+15:40:37 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+15:40:37 INFO  : 'configparams force-mem-access 1' command is executed.
+15:40:37 INFO  : Context for 'APU' is selected.
+15:40:37 INFO  : Boot mode is read from the target.
+15:40:37 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:40:37 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:40:38 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:40:38 INFO  : 'set bp_40_38_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+15:40:38 INFO  : 'con -block -timeout 60' command is executed.
+15:40:38 INFO  : 'bpremove $bp_40_38_fsbl_bp' command is executed.
+15:40:38 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:40:38 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:40:40 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:40:40 INFO  : 'configparams force-mem-access 0' command is executed.
+15:40:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_40_38_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_40_38_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:40:40 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:40:40 INFO  : 'con' command is executed.
+15:40:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+15:40:40 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+15:42:54 INFO  : Disconnected from the channel tcfchan#2.
+15:42:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:56 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+15:42:56 INFO  : 'jtag frequency' command is executed.
+15:42:56 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+15:42:56 INFO  : Context for 'APU' is selected.
+15:42:57 INFO  : System reset is completed.
+15:43:00 INFO  : 'after 3000' command is executed.
+15:43:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+15:43:05 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+15:43:05 INFO  : Context for 'APU' is selected.
+15:43:09 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+15:43:09 INFO  : 'configparams force-mem-access 1' command is executed.
+15:43:09 INFO  : Context for 'APU' is selected.
+15:43:09 INFO  : Boot mode is read from the target.
+15:43:09 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:43:09 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:43:10 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:43:10 INFO  : 'set bp_43_10_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+15:43:10 INFO  : 'con -block -timeout 60' command is executed.
+15:43:10 INFO  : 'bpremove $bp_43_10_fsbl_bp' command is executed.
+15:43:10 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:43:10 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:43:12 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:43:12 INFO  : 'configparams force-mem-access 0' command is executed.
+15:43:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_43_10_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_43_10_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:43:12 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:43:12 INFO  : 'con' command is executed.
+15:43:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+15:43:12 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+15:48:37 INFO  : Disconnected from the channel tcfchan#3.
+15:51:01 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+15:51:03 INFO  : XSCT server has started successfully.
+15:51:03 INFO  : plnx-install-location is set to ''
+15:51:03 INFO  : Successfully done setting XSCT server connection channel  
+15:51:03 INFO  : Successfully done setting workspace for the tool. 
+15:51:37 INFO  : Platform repository initialization has completed.
+15:51:38 INFO  : Registering command handlers for Vitis TCF services
+15:51:38 INFO  : Successfully done query RDI_DATADIR 
+15:52:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:52:02 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+15:52:02 INFO  : 'jtag frequency' command is executed.
+15:52:02 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+15:52:02 INFO  : Context for 'APU' is selected.
+15:52:03 INFO  : System reset is completed.
+15:52:06 INFO  : 'after 3000' command is executed.
+15:52:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+15:52:11 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+15:52:11 INFO  : Context for 'APU' is selected.
+15:52:12 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+15:52:12 INFO  : 'configparams force-mem-access 1' command is executed.
+15:52:12 INFO  : Context for 'APU' is selected.
+15:52:12 INFO  : Boot mode is read from the target.
+15:52:12 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:52:12 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:52:13 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:52:13 INFO  : 'set bp_52_13_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+15:52:14 INFO  : 'con -block -timeout 60' command is executed.
+15:52:14 INFO  : 'bpremove $bp_52_13_fsbl_bp' command is executed.
+15:52:14 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:52:14 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:52:17 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:52:17 INFO  : 'configparams force-mem-access 0' command is executed.
+15:52:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_52_13_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_52_13_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:52:17 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:52:17 INFO  : 'con' command is executed.
+15:52:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+15:52:17 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:05:04 INFO  : Disconnected from the channel tcfchan#1.
+16:05:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:05:06 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:05:06 INFO  : 'jtag frequency' command is executed.
+16:05:06 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:05:06 INFO  : Context for 'APU' is selected.
+16:05:07 INFO  : System reset is completed.
+16:05:10 INFO  : 'after 3000' command is executed.
+16:05:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:05:14 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:05:14 INFO  : Context for 'APU' is selected.
+16:05:19 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:05:19 INFO  : 'configparams force-mem-access 1' command is executed.
+16:05:19 INFO  : Context for 'APU' is selected.
+16:05:19 INFO  : Boot mode is read from the target.
+16:05:19 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:05:19 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:05:20 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:05:20 INFO  : 'set bp_5_20_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:05:20 INFO  : 'con -block -timeout 60' command is executed.
+16:05:20 INFO  : 'bpremove $bp_5_20_fsbl_bp' command is executed.
+16:05:20 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:05:20 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:05:22 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:05:22 INFO  : 'configparams force-mem-access 0' command is executed.
+16:05:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_5_20_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_5_20_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:05:22 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:05:22 INFO  : 'con' command is executed.
+16:05:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:05:22 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:16:42 INFO  : Disconnected from the channel tcfchan#2.
+16:16:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:16:43 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:16:43 INFO  : 'jtag frequency' command is executed.
+16:16:43 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:16:43 INFO  : Context for 'APU' is selected.
+16:16:44 INFO  : System reset is completed.
+16:16:47 INFO  : 'after 3000' command is executed.
+16:16:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:16:52 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:16:52 INFO  : Context for 'APU' is selected.
+16:16:57 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:16:57 INFO  : 'configparams force-mem-access 1' command is executed.
+16:16:57 INFO  : Context for 'APU' is selected.
+16:16:57 INFO  : Boot mode is read from the target.
+16:16:57 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:16:57 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:16:58 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:16:58 INFO  : 'set bp_16_58_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:16:58 INFO  : 'con -block -timeout 60' command is executed.
+16:16:58 INFO  : 'bpremove $bp_16_58_fsbl_bp' command is executed.
+16:16:58 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:16:58 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:17:00 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:17:00 INFO  : 'configparams force-mem-access 0' command is executed.
+16:17:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_16_58_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_16_58_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:17:00 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:17:01 INFO  : 'con' command is executed.
+16:17:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:17:01 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+18:28:32 INFO  : Disconnected from the channel tcfchan#3.
+10:50:20 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+10:50:22 INFO  : XSCT server has started successfully.
+10:50:22 INFO  : plnx-install-location is set to ''
+10:50:22 INFO  : Successfully done setting XSCT server connection channel  
+10:50:22 INFO  : Successfully done setting workspace for the tool. 
+10:50:24 INFO  : Platform repository initialization has completed.
+10:50:24 INFO  : Registering command handlers for Vitis TCF services
+10:50:24 INFO  : Successfully done query RDI_DATADIR 
+15:51:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+15:51:07 INFO  : XSCT server has started successfully.
+15:51:07 INFO  : Successfully done setting XSCT server connection channel  
+15:51:07 INFO  : plnx-install-location is set to ''
+15:51:07 INFO  : Successfully done setting workspace for the tool. 
+15:51:09 INFO  : Platform repository initialization has completed.
+15:51:09 INFO  : Registering command handlers for Vitis TCF services
+15:51:09 INFO  : Successfully done query RDI_DATADIR 
+16:08:30 INFO  : Result from executing command 'getProjects': system_wrapper
+16:08:30 INFO  : Result from executing command 'getPlatforms': system_wrapper|D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+16:08:30 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+16:09:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:09:40 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:09:40 INFO  : 'jtag frequency' command is executed.
+16:09:40 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:09:40 INFO  : Context for 'APU' is selected.
+16:09:41 INFO  : System reset is completed.
+16:09:44 INFO  : 'after 3000' command is executed.
+16:09:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:09:49 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:09:49 INFO  : Context for 'APU' is selected.
+16:09:50 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:09:50 INFO  : 'configparams force-mem-access 1' command is executed.
+16:09:50 INFO  : Context for 'APU' is selected.
+16:09:50 INFO  : Boot mode is read from the target.
+16:09:50 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:09:50 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:09:51 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:09:51 INFO  : 'set bp_9_51_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:09:51 INFO  : 'con -block -timeout 60' command is executed.
+16:09:51 INFO  : 'bpremove $bp_9_51_fsbl_bp' command is executed.
+16:09:51 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:09:51 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:09:53 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:09:53 INFO  : 'configparams force-mem-access 0' command is executed.
+16:09:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_9_51_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_9_51_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:09:53 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:09:53 INFO  : 'con' command is executed.
+16:09:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:09:53 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:13:09 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+16:13:43 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+16:13:57 INFO  : Disconnected from the channel tcfchan#2.
+16:13:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:13:59 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:13:59 INFO  : 'jtag frequency' command is executed.
+16:13:59 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:13:59 INFO  : Context for 'APU' is selected.
+16:14:00 INFO  : System reset is completed.
+16:14:03 INFO  : 'after 3000' command is executed.
+16:14:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:14:08 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:14:08 INFO  : Context for 'APU' is selected.
+16:14:08 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:14:08 INFO  : 'configparams force-mem-access 1' command is executed.
+16:14:08 INFO  : Context for 'APU' is selected.
+16:14:08 INFO  : Boot mode is read from the target.
+16:14:08 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:14:08 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:14:09 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:14:09 INFO  : 'set bp_14_9_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:14:10 INFO  : 'con -block -timeout 60' command is executed.
+16:14:10 INFO  : 'bpremove $bp_14_9_fsbl_bp' command is executed.
+16:14:10 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:14:10 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:14:12 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:14:12 INFO  : 'configparams force-mem-access 0' command is executed.
+16:14:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_14_9_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_14_9_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:14:12 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:14:12 INFO  : 'con' command is executed.
+16:14:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:14:12 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:18:47 INFO  : Disconnected from the channel tcfchan#3.
+16:18:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:18:48 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:18:48 INFO  : 'jtag frequency' command is executed.
+16:18:48 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:18:48 INFO  : Context for 'APU' is selected.
+16:18:49 INFO  : System reset is completed.
+16:18:52 INFO  : 'after 3000' command is executed.
+16:18:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:18:57 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:18:57 INFO  : Context for 'APU' is selected.
+16:18:57 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:18:57 INFO  : 'configparams force-mem-access 1' command is executed.
+16:18:57 INFO  : Context for 'APU' is selected.
+16:18:57 INFO  : Boot mode is read from the target.
+16:18:57 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:18:57 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:18:58 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:18:58 INFO  : 'set bp_18_58_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:18:58 INFO  : 'con -block -timeout 60' command is executed.
+16:18:58 INFO  : 'bpremove $bp_18_58_fsbl_bp' command is executed.
+16:18:58 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:18:58 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:19:00 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:19:00 INFO  : 'configparams force-mem-access 0' command is executed.
+16:19:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_18_58_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_18_58_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:19:00 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:19:00 INFO  : 'con' command is executed.
+16:19:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:19:00 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:20:58 INFO  : Disconnected from the channel tcfchan#4.
+16:20:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:20:59 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:20:59 INFO  : 'jtag frequency' command is executed.
+16:20:59 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:20:59 INFO  : Context for 'APU' is selected.
+16:21:01 INFO  : System reset is completed.
+16:21:04 INFO  : 'after 3000' command is executed.
+16:21:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:21:08 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:21:09 INFO  : Context for 'APU' is selected.
+16:21:09 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:21:09 INFO  : 'configparams force-mem-access 1' command is executed.
+16:21:09 INFO  : Context for 'APU' is selected.
+16:21:09 INFO  : Boot mode is read from the target.
+16:21:09 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:21:09 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:21:10 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:21:10 INFO  : 'set bp_21_10_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:21:10 INFO  : 'con -block -timeout 60' command is executed.
+16:21:10 INFO  : 'bpremove $bp_21_10_fsbl_bp' command is executed.
+16:21:10 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:21:10 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:21:12 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:21:12 INFO  : 'configparams force-mem-access 0' command is executed.
+16:21:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_21_10_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_21_10_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:21:12 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:21:12 INFO  : 'con' command is executed.
+16:21:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:21:12 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:42:24 INFO  : Disconnected from the channel tcfchan#5.
+09:50:28 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+09:50:30 INFO  : XSCT server has started successfully.
+09:50:30 INFO  : plnx-install-location is set to ''
+09:50:30 INFO  : Successfully done setting XSCT server connection channel  
+09:50:30 INFO  : Successfully done setting workspace for the tool. 
+09:51:03 INFO  : Platform repository initialization has completed.
+09:51:03 INFO  : Registering command handlers for Vitis TCF services
+09:51:03 INFO  : Successfully done query RDI_DATADIR 
+10:40:38 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+10:40:40 INFO  : XSCT server has started successfully.
+10:40:40 INFO  : Successfully done setting XSCT server connection channel  
+10:40:40 INFO  : plnx-install-location is set to ''
+10:40:40 INFO  : Successfully done setting workspace for the tool. 
+10:40:42 INFO  : Platform repository initialization has completed.
+10:40:42 INFO  : Registering command handlers for Vitis TCF services
+10:40:42 INFO  : Successfully done query RDI_DATADIR 
+10:48:09 INFO  : Result from executing command 'getProjects': system_wrapper
+10:48:09 INFO  : Result from executing command 'getPlatforms': system_wrapper|D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+10:48:10 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+14:57:23 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+14:57:25 INFO  : XSCT server has started successfully.
+14:57:25 INFO  : Successfully done setting XSCT server connection channel  
+14:57:25 INFO  : plnx-install-location is set to ''
+14:57:25 INFO  : Successfully done setting workspace for the tool. 
+14:57:27 INFO  : Platform repository initialization has completed.
+14:57:27 INFO  : Registering command handlers for Vitis TCF services
+14:57:28 INFO  : Successfully done query RDI_DATADIR 
+15:19:44 INFO  : Result from executing command 'getProjects': system_wrapper
+15:19:44 INFO  : Result from executing command 'getPlatforms': system_wrapper|D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/system_wrapper.xpfm
+15:19:45 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+16:32:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+16:32:49 INFO  : XSCT server has started successfully.
+16:32:49 INFO  : Successfully done setting XSCT server connection channel  
+16:32:49 INFO  : plnx-install-location is set to ''
+16:32:49 INFO  : Successfully done setting workspace for the tool. 
+16:32:51 INFO  : Platform repository initialization has completed.
+16:32:51 INFO  : Registering command handlers for Vitis TCF services
+16:32:52 INFO  : Successfully done query RDI_DATADIR 
+16:39:20 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+16:42:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:42:04 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:42:04 INFO  : 'jtag frequency' command is executed.
+16:42:04 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:42:04 INFO  : Context for 'APU' is selected.
+16:42:05 INFO  : System reset is completed.
+16:42:08 INFO  : 'after 3000' command is executed.
+16:42:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:42:13 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:42:13 INFO  : Context for 'APU' is selected.
+16:42:14 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:42:14 INFO  : 'configparams force-mem-access 1' command is executed.
+16:42:14 INFO  : Context for 'APU' is selected.
+16:42:14 INFO  : Boot mode is read from the target.
+16:42:14 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:42:14 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:42:15 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:42:15 INFO  : 'set bp_42_15_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:42:15 INFO  : 'con -block -timeout 60' command is executed.
+16:42:15 INFO  : 'bpremove $bp_42_15_fsbl_bp' command is executed.
+16:42:15 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:42:15 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:42:17 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:42:17 INFO  : 'configparams force-mem-access 0' command is executed.
+16:42:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_42_15_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_42_15_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:42:18 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:42:18 INFO  : 'con' command is executed.
+16:42:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:42:18 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:50:15 INFO  : Disconnected from the channel tcfchan#1.
+16:50:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:50:17 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:50:17 INFO  : 'jtag frequency' command is executed.
+16:50:17 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+16:50:17 INFO  : Context for 'APU' is selected.
+16:50:18 INFO  : System reset is completed.
+16:50:21 INFO  : 'after 3000' command is executed.
+16:50:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+16:50:26 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+16:50:26 INFO  : Context for 'APU' is selected.
+16:50:30 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+16:50:30 INFO  : 'configparams force-mem-access 1' command is executed.
+16:50:30 INFO  : Context for 'APU' is selected.
+16:50:30 INFO  : Boot mode is read from the target.
+16:50:30 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:50:30 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:50:31 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:50:31 INFO  : 'set bp_50_31_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+16:50:31 INFO  : 'con -block -timeout 60' command is executed.
+16:50:31 INFO  : 'bpremove $bp_50_31_fsbl_bp' command is executed.
+16:50:31 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:50:31 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:50:33 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+16:50:33 INFO  : 'configparams force-mem-access 0' command is executed.
+16:50:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_50_31_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_50_31_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:50:33 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:50:34 INFO  : 'con' command is executed.
+16:50:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+16:50:34 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+16:53:00 INFO  : Disconnected from the channel tcfchan#2.
+14:44:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\temp_xsdb_launch_script.tcl
+14:44:48 INFO  : XSCT server has started successfully.
+14:44:48 INFO  : plnx-install-location is set to ''
+14:44:48 INFO  : Successfully done setting XSCT server connection channel  
+14:44:48 INFO  : Successfully done setting workspace for the tool. 
+14:45:20 INFO  : Platform repository initialization has completed.
+14:45:20 INFO  : Registering command handlers for Vitis TCF services
+14:45:20 INFO  : Successfully done query RDI_DATADIR 
+14:49:09 INFO  : Checking for BSP changes to sync application flags for project 'thr_hls_com_1018'...
+14:49:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:49:51 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+14:49:51 INFO  : 'jtag frequency' command is executed.
+14:49:51 INFO  : Sourcing of 'D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl' is done.
+14:49:51 INFO  : Context for 'APU' is selected.
+14:49:53 INFO  : System reset is completed.
+14:49:56 INFO  : 'after 3000' command is executed.
+14:49:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}' command is executed.
+14:50:01 INFO  : Device configured successfully with "D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit"
+14:50:01 INFO  : Context for 'APU' is selected.
+14:50:01 INFO  : Hardware design and registers information is loaded from 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+14:50:01 INFO  : 'configparams force-mem-access 1' command is executed.
+14:50:01 INFO  : Context for 'APU' is selected.
+14:50:01 INFO  : Boot mode is read from the target.
+14:50:01 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:50:01 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:50:02 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:50:03 INFO  : 'set bp_50_2_fsbl_bp [bpadd -addr &XFsbl_Exit]' command is executed.
+14:50:03 INFO  : 'con -block -timeout 60' command is executed.
+14:50:03 INFO  : 'bpremove $bp_50_2_fsbl_bp' command is executed.
+14:50:03 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:50:03 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+14:50:05 INFO  : The application 'D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf' is downloaded to processor 'psu_cortexa53_0'.
+14:50:05 INFO  : 'configparams force-mem-access 0' command is executed.
+14:50:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx/Vitis/2020.2/scripts/vitis/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-14711093-0"}
+fpga -file D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+set mode [expr [mrd -value 0xFF5E0200] & 0xf]
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/system_wrapper/export/system_wrapper/sw/system_wrapper/boot/fsbl.elf
+set bp_50_2_fsbl_bp [bpadd -addr &XFsbl_Exit]
+con -block -timeout 60
+bpremove $bp_50_2_fsbl_bp
+targets -set -nocase -filter {name =~ "*A53*#0"}
+rst -processor
+dow D:/FPGA/MPSoC-P4/ov5640/thr_hls_compact_1280_800/vitis/thr_hls_com_1018/Debug/thr_hls_com_1018.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:50:05 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+14:50:05 INFO  : 'con' command is executed.
+14:50:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A53*#0"}
+con
+----------------End of Script----------------
+
+14:50:05 INFO  : Launch script is exported to file 'D:\FPGA\MPSoC-P4\ov5640\thr_hls_compact_1280_800\vitis\thr_hls_com_1018_system\_ide\scripts\debugger_thr_hls_com_1018-default.tcl'
+14:55:04 INFO  : Disconnected from the channel tcfchan#1.
