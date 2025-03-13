@@ -1,0 +1,11 @@
+ip_upgrade.log filter=lfs diff=lfs merge=lfs -text
+thr_hls_compact_1280_800.ip_user_files filter=lfs diff=lfs merge=lfs -text
+thr_hls_compact_1280_800.runs filter=lfs diff=lfs merge=lfs -text
+thr_hls_compact_1280_800.sim filter=lfs diff=lfs merge=lfs -text
+Packages filter=lfs diff=lfs merge=lfs -text
+ip_repo filter=lfs diff=lfs merge=lfs -text
+thr_hls_compact_1280_800.srcs filter=lfs diff=lfs merge=lfs -text
+thr_hls_compact_1280_800.xpr filter=lfs diff=lfs merge=lfs -text
+vitis filter=lfs diff=lfs merge=lfs -text
+thr_hls_compact_1280_800.cache filter=lfs diff=lfs merge=lfs -text
+thr_hls_compact_1280_800.hw filter=lfs diff=lfs merge=lfs -text
